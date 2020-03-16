@@ -6,7 +6,9 @@ import com.example.annmovies.domain.model.Movie
  * Created by anahi.salgado on 15/03/2020
  */
 interface GetMovie {
-    fun getMovies(callback: Callback)
+    fun getPopularMovies(callback: Callback)
+    fun getTopRatedMovies(callback: Callback)
+    fun getUpcomingMovies(callback: Callback)
 
     interface Callback {
         fun onError()
