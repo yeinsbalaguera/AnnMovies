@@ -17,4 +17,6 @@ class GetMovieImpl: GetMovie {
 
     override fun getUpcomingMovies(): Single<List<Movie>> {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+
+    }
 }
